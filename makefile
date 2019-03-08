@@ -5,7 +5,7 @@ ARCH      := $(shell uname -m | sed "s_armv7l_armhf_")# armhf/x86_64 auto-detect
 OPSYS     := alpine
 SHCOMMAND := /bin/bash
 SVCNAME   := s6
-USERNAME  := woahbase
+USERNAME  := roostaq
 
 DOCKERSRC := $(OPSYS)-base#
 DOCKEREPO := $(OPSYS)-$(SVCNAME)
